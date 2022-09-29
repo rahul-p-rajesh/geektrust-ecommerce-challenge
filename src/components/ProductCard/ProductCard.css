@@ -1,0 +1,24 @@
+.product-card{
+    /* w-full max-w-sm */
+    width: 45%;
+    max-width: 300px;
+    min-width: 250px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+}
+.product-image{
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.product-card:hover {
+    cursor: pointer;
+}
+
+.card-bottom-container{
+    display: flex;
+    justify-content: space-between;
+}
